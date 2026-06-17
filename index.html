@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Xhr Movies CRUD</title>
+
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+<body>
+
+    <div class="container-fluid my-5">
+        <div class="row mb-4">
+            <div class="col-md-6 offset-md-3">
+                <div class="card form-card">
+                    <div class="card-body">
+                        <form id="movieForm">
+
+                            <div class="form-group">
+                                <label for="title" class="font-weight-bold">Movie Title*</label>
+                                <input type="text" class="form-control" id="title"/>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="director" class="font-weight-bold">Director*</label>
+                                <input type="text" class="form-control" id="director"/>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="genre" class="font-weight-bold">Genre*</label>
+                                <input type="text" class="form-control" id="genre"/>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block" id="addMovieBtn">
+                                Add Movie
+                            </button>
+
+                            <button type="button" class="btn btn-warning btn-block d-none" id="updateMovieBtn">
+                                Update Movie
+                            </button>
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="movieContainer"></div>
+    </div>
+
+    <div class="spinner d-none" id="spinner">
+        <div class="spinner-border text-primary" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
