@@ -1,6 +1,5 @@
-
-body{
-    background-color: #f8fafc;
+.body{
+    background-color: #f6fff8;
 }
 
 .spinner{
@@ -13,32 +12,32 @@ body{
     z-index: 999;
 }
 
-.product-card{
+.movie-card{
     border: none;
-    border-left: 8px solid #7c3aed;
-    border-radius: 0;
+    border-left: 8px solid #10b981;
+    border-radius: 12px;
     background-color: #ffffff;
-    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
     overflow: hidden;
 }
 
-.product-card .card-header{
-    background-color: #ede9fe;
-    color: #5b21b6;
+.movie-card .card-header{
+    background-color: #d1fae5;
+    color: #065f46;
 }
 
-.product-card .card-footer{
-    background-color: #f5f3ff;
+.movie-card .card-footer{
+    background-color: #ecfdf5;
 }
 
-.product-price{
-    color: #7c3aed;
+.movie-director{
+    color: #059669;
     font-weight: bold;
     font-size: 18px;
 }
 
-.product-category{
-    color: #475569;
+.movie-genre{
+    color: #4b5563;
     font-weight: 600;
 }
 
