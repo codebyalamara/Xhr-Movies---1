@@ -1,5 +1,5 @@
-.body{
-    background-color: #f6fff8;
+body{
+    background-color: #fff8f3;
 }
 
 .spinner{
@@ -12,32 +12,41 @@
     z-index: 999;
 }
 
-.movie-card{
+.form-card{
     border: none;
-    border-left: 8px solid #10b981;
-    border-radius: 12px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.08);
+}
+
+.movie-card{
+    border: 2px solid #ffb4a2;
+    border-radius: 18px;
     background-color: #ffffff;
-    box-shadow: 0 5px 15px rgba(0,0,0,.08);
     overflow: hidden;
+    box-shadow: 0 6px 15px rgba(0,0,0,.08);
 }
 
 .movie-card .card-header{
-    background-color: #d1fae5;
-    color: #065f46;
+    background-color: #e76f51;
+    color: #fff;
+}
+
+.movie-card .card-body{
+    background-color: #ffffff;
+    color: #5c4033;
 }
 
 .movie-card .card-footer{
-    background-color: #ecfdf5;
+    background-color: #ffe5d9;
 }
 
 .movie-director{
-    color: #059669;
+    color: #d9480f;
     font-weight: bold;
-    font-size: 18px;
 }
 
 .movie-genre{
-    color: #4b5563;
+    color: #9c6644;
     font-weight: 600;
 }
 
